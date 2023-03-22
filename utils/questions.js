@@ -84,6 +84,12 @@ const questions = [
       },
       new inquirer.Separator(" = Backend Features = "),
       {
+        name: "Node.js",
+      },
+      {
+        name: "Express.js",
+      },
+      {
         name: "SQL",
       },
       {

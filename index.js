@@ -5,8 +5,6 @@ const [inquirer, fs, questions] = [
 ];
 
 inquirer.prompt(questions).then((answers) => {
-  // console.log(JSON.stringify(answers, null, "  "));
-
   fs.appendFile(
     "README.md",
     `
@@ -66,28 +64,10 @@ inquirer.prompt(questions).then((answers) => {
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
   
-  © 2021 _celestealexmoore_
+  © 2023 _${answers.github}_
 
   `,
-    (err) => (err ? console.error(err) : console.log("Building your README.md file!"))
+    (err) =>
+      err ? console.error(err) : console.log("Building your README.md file!")
   );
 });
-
-/* 
-I need to:
-
-when the questions are answered, I want to generate a readme 
-
-- add the code for the MIT license tag
-    - use fs to generate the readme.
-
-    components of a readme:
-    - title
-    - (line break)
-    - Description
-    - Table of Contents
-    - (line break)
-    - Description, Media, Deployed Site, Features, Contributors, Contact, Project Status, License.
-
-        Data Caching
-*/
