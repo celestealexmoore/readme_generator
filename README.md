@@ -1,9 +1,9 @@
 
   <div align="center">
 
-  # project_name
+  # ReadME.md Generator
   
-  ### _project_description _
+  ### _This CLI project dynamically creates a readme.md file based off of user input with prompts from promise-based npm package, Inquirer. _
   </div>
   
   ## Table of Contents
@@ -11,8 +11,6 @@
   - [Description](#Description)
   
   - [Media](#Media)
-  
-  - [Deployed Site](#deployed-site)
   
   - [Features](#Features)
   
@@ -29,12 +27,8 @@
   ![Photo 1](./media/readme.gif)  
    
   
-  ## Deployed Site
-  
-     The deployment is coming soon. In the meantime, view my other repositories: (https://github.com/celestealexmoore?tab=repositories)
-  
   ## Features
-  JavaScript,jQuery,Node.js
+  JavaScript, jQuery, Node.js
   
   ## Contributors
   
